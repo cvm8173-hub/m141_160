@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/university/gopal-narayan-singh-university-sasaram-63907",
-  "https://www.shiksha.com/college/cmr-institute-of-medical-sciences-medchal-hyderabad-213717",
-  "https://www.shiksha.com/college/g-s-v-m-medical-college-kanpur-20108",
-  "https://www.shiksha.com/college/rajendra-institute-of-medical-sciences-rims-ranchi-63091",
-  "https://www.shiksha.com/college/sn-medical-college-agra-63115",
-  "https://www.shiksha.com/college/andhra-medical-college-visakhapatnam-62671",
-  "https://www.shiksha.com/university/chhatrapati-shivaji-maharaj-university-navi-mumbai-65715",
-  "https://www.shiksha.com/college/jagannath-gupta-institute-of-medical-sciences-and-hospital-budge-budge-kolkata-69843",
-  "https://www.shiksha.com/college/sri-jayadeva-institute-of-cardiovascular-sciences-and-research-bannerghatta-road-bangalore-66739",
-  "https://www.shiksha.com/college/chitkara-college-of-pharmacy-chitkara-university-chandigarh-52082",
-  "https://www.shiksha.com/college/manipal-college-of-dental-sciences-mangalore-manipal-academy-of-higher-education-52587",
-  "https://www.shiksha.com/university/guru-ghasidas-vishwavidyalaya-bilaspur-25197",
-  "https://www.shiksha.com/college/principal-k-m-kundnani-college-of-pharmacy-cuffe-parade-mumbai-64313",
-  "https://www.shiksha.com/college/lloyd-institute-of-management-and-technology-pharm-greater-noida-23419",
-  "https://www.shiksha.com/college/r-n-t-medical-college-udaipur-63085",
-  "https://www.shiksha.com/college/a-j-institute-of-medical-sciences-and-research-centre-mangalore-67889",
-  "https://www.shiksha.com/university/university-of-madras-chennai-23679",
-  "https://www.shiksha.com/university/gjust-guru-jambheshwar-university-of-science-and-technology-hisar-3273",
-  "https://www.shiksha.com/college/met-institute-of-pharmacy-bandra-west-mumbai-212",
-  "https://www.shiksha.com/college/a-b-shetty-memorial-institute-of-dental-sciences-mangalore-56683",
+  "https://www.shiksha.com/college/einstein-post-graduate-college-saroornagar-hyderabad-68397",
+  "https://www.shiksha.com/college/shivam-institute-of-management-gujarat-other-69199",
+  "https://www.shiksha.com/college/smt-s-a-patel-bed-college-mehsana-69273",
+  "https://www.shiksha.com/college/rohitash-institute-of-management-mahendragarh-69333",
+  "https://www.shiksha.com/college/shri-atamanand-jain-institute-of-management-and-technology-ambala-69343",
+  "https://www.shiksha.com/college/gnanam-school-of-business-thanjavur-71737",
+  "https://www.shiksha.com/college/bhubaneswar-institute-of-management-studies-khordha-156343",
+  "https://www.shiksha.com/college/raghukul-college-of-management-bhopal-157041",
+  "https://www.shiksha.com/college/ies-institute-of-management-sehore-157077",
+  "https://www.shiksha.com/college/satellite-campus-leh-186917",
+  "https://www.shiksha.com/college/v-i-t-s-group-of-institutions-faculty-of-engineering-school-of-management-visakhapatnam-188393",
+  "https://www.shiksha.com/college/satyam-institute-of-management-and-technology-jalandhar-195897",
+  "https://www.shiksha.com/college/visvesvaraya-technological-university-chickaballapur-chikballpura-201929",
+  "https://www.shiksha.com/college/alia-institute-of-management-bhopal-210193",
+  "https://www.shiksha.com/college/government-arts-and-science-college-tondairpet-tondiarpet-chennai-228359",
+  "https://www.shiksha.com/college/edept-ashok-nagar-bangalore-240296",
+  "https://www.shiksha.com/college/friends-union-for-energizing-lives-pune-243932",
+  "https://www.shiksha.com/college/daksha-pg-college-mysuru-mysore-244780",
+  "https://www.shiksha.com/college/uttaranchal-p-g-college-of-bio-medical-sciences-and-hospital-dehradun-23157",
+  "https://www.shiksha.com/college/skyline-educational-institutes-greater-noida-24980",
 ]
 
 
@@ -9241,7 +9241,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =141
+    c_count =2751
     
     try:
         for base_url in BASE_URL:
